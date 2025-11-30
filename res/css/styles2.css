@@ -1,0 +1,35 @@
+/* Règle pour appliquer la boîte à modèles border-box à tous les éléments */
+* {
+    box-sizing: border-box;
+    font-family: Arial, sans-serif; /* Utilise une police lisible */
+}
+
+/* Styles pour le corps de la page */
+body {
+    background-color: #f4f4f9; /* Couleur de fond très claire */
+    color: #333; /* Couleur de texte sombre */
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Styles pour les titres */
+h1 {
+    color: #2c3e50; /* Couleur sombre */
+    border-bottom: 2px solid #3498db; /* Souligne le titre principal */
+    padding-bottom: 5px;
+}
+
+/* Styles pour les sections (pour les séparer visuellement) */
+section {
+    background-color: #fff; /* Fond blanc pour le contenu */
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 8px; /* Coins légèrement arrondis */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Petite ombre portée */
+}
+
+/* Styles pour les listes */
+ul, ol {
+    margin-left: 20px; /* Ajoute un peu de marge pour les listes */
+}
